@@ -2,10 +2,8 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="style.css">
-	<link href="https://fastcdn.org/Animate.css/3.4.0/animate.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/JoseThemeOSE/style.css">
   <script src="script.js"></script>
-  <link rel="stylesheet" href="C:\Users\JosePro\Documents\GitHub\OSE_WebFrontEnd_Design">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js">
@@ -16,13 +14,13 @@
 
 <body>
 	<div class="ui divided grid centered">
-		<div class="row centered" id="">
+		<div class="row centered" id="test">
 
 			<div class="row wide centered" id="floordiv">
 				<div class="ui hidden divider" id="1fdiv"></div>
 
 
-				<div class="ui inverted large header">We use open source to unleash our human potential </div>
+				<div class="ui  large header">We use open source to unleash our human potential </div>
 				<div class="ui huge inverted header">We are Open Source Ecology</div>
 				<div class="ui large inverted header"></div>
 
