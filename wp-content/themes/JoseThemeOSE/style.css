@@ -1,0 +1,43 @@
+/* Styles go here */
+
+#floordiv{
+	height:120%;
+
+}
+
+
+
+#test {
+  /*background-image:linear-gradient(to right, black 0%, white 100%), url('https://i.ytimg.com/vi/dGp4zrRpEs8/maxresdefault.jpg') !important;*/
+  background-image: linear-gradient(to top, black 0%, white 100%), url("https://i.ytimg.com/vi/dGp4zrRpEs8/maxresdefault.jpg");
+  background-blend-mode: multiply !important;
+  background-size: ;
+  width:100%;
+  background-repeat: no-repeat;
+	background-color: grey;
+}
+
+#test2 {
+  background-image: url("http://www.footiemap.com/country/england/maps/london.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*2nd floor*/
+
+#card1 {
+  box-shadow: 1px 1px 100px grey !important;
+}
+
+/*#3floor {
+  height: 1000px;
+  background: cover, url("http://opensourceecology.org/wp-content/uploads/2014/02/gvcs-all-50.jpg");
+}*/
+
+#abc {
+  background-image: url("http://currion.net/wp-content/uploads/2015/11/Global_Village_Construction_Set.jpg");
+  background-size:cover;
+  height:1000px;
+
+}
