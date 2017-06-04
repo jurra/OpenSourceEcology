@@ -1,13 +1,13 @@
 /*
-Theme Name:     Hestia
-Theme URI:      https://themeisle.com/themes/hestia/
-Author:         ThemeIsle
-Author URI:     https://themeisle.com
+Theme Name:     Hestia Child
+Theme URI: http://localhost/opensourceecology/hestia-child/
+Author:         Jose
+Author URI:
 Description:    Hestia is a modern WordPress theme for professionals. It fits creative business, small businesses (restaurants, wedding planners, sport/medical shops), startups, corporate businesses, online agencies and firms, portfolios, ecommerce (WooCommerce), and freelancers. It has a multipurpose one-page design, widgetized footer, blog/news page and a clean look, is compatible with: Flat Parallax Slider, Photo Gallery, Travel Map and Elementor Page Builder . The theme is responsive, WPML, Retina ready, SEO friendly, and uses Material Kit for design.
 Version:        1.1.24
 License:        GNU General Public License v2 or later
 License URI:    http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:    hestia
+Text Domain:    hestia child
 Tags: blog, custom-logo, portfolio, e-commerce, rtl-language-support, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -1807,11 +1807,12 @@ select.form-control[multiple],
 
 .navbar .title-logo-wrapper {
     min-width: 250px;
+		max-width:250px;
 }
 
 .navbar .navbar-brand {
 	position: relative;
-    max-width: 100%;
+    max-width: 60%; /*Logo de la pagina*/
 	padding: 10px 15px;
 	color: inherit;
 	line-height: 30px;
@@ -1830,7 +1831,7 @@ select.form-control[multiple],
 }
 
 .navbar .navbar-brand img {
-	max-height: 100%;
+	height: 50% !important;
 }
 
 .navbar .navbar-brand:hover,
@@ -1850,7 +1851,7 @@ select.form-control[multiple],
 	padding-bottom: 15px;
 	border-radius: 3px;
 	color: inherit;
-	font-size: 12px;
+	font-size: 18px;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -2192,7 +2193,8 @@ h1,
 
 h2,
 .h2 {
-	font-size: 2.6em;
+	font-size: 2.4em; /*mod*/
+	font-weight:200;
 }
 
 h3,
@@ -2259,8 +2261,9 @@ h2.title {
 .carousel h2.title {
 	margin-bottom: 20px;
 	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-	font-size: 4.8em;
+	font-size: 3.2em;
 	line-height: 1.15em;
+	font-weight:500;
 }
 
 .carousel h4 {
@@ -3364,7 +3367,7 @@ tbody tr:last-child {
 }
 
 .page-header .container {
-	padding-top: 30vh;
+	padding-top: 45vh !important; /*mod: original 30vh*/
 	color: #fff;
 }
 
@@ -3407,7 +3410,7 @@ tbody tr:last-child {
 }
 
 .header-filter::before {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.1);
 }
 
 .header-filter .container {
@@ -4792,7 +4795,8 @@ li.yith_magnifier_thumbnail a {
 	}
 
 	.carousel h2.title {
-		font-size: 4.2em;
+		font-size: 3.2em;
+		max font-size: 3.2em !important;
 	}
 
 	.navbar .navbar-brand {
@@ -5135,11 +5139,11 @@ li.yith_magnifier_thumbnail a {
 	}
 
 	.carousel h2.title {
-		font-size: 3em;
+		font-size: 3.2em;
 	}
 
 	.page-header .container {
-		padding-top: 25vh;
+		padding-top: 40vh !important;
 	}
 	.about .text-area {
 		margin-bottom: 20px;
@@ -5293,4 +5297,18 @@ li.yith_magnifier_thumbnail a {
 }
 .description .default-link {
 	color: #999;
+}
+
+
+
+/*Added by Jose, custom styles*/
+
+#cont1{
+	/*padding-top:40vh !important;*/
+
+
+}
+
+.page-header,.container, #cont1{
+	/*padding-top:15vh*/
 }
