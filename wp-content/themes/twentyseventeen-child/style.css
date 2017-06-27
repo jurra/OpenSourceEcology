@@ -524,7 +524,7 @@ address {
 }
 
 pre {
-	background: #eee;
+	/*background: #eee;*/
 	font-family: "Courier 10 Pitch", Courier, monospace;
 	font-size: 15px;
 	font-size: 0.9375rem;
@@ -542,6 +542,7 @@ var {
 	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 	font-size: 15px;
 	font-size: 0.9375rem;
+	background:transparent !important;
 }
 
 abbr,
@@ -552,7 +553,7 @@ acronym {
 
 mark,
 ins {
-	background: #eee;
+	/*background: #eee;*/
 	text-decoration: none;
 }
 
