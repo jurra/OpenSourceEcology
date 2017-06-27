@@ -25,7 +25,7 @@ get_header();
 
 ?>
 <div id="primary" class="page-header header-filter header-small" data-parallax="active" style="background-image: url('<?php echo( esc_url( get_header_image() ) ); ?>');">
-	<div class="container">
+	<div class="container" id="cont1">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center">
 				<h2 class="title"><?php bloginfo( 'description' ); ?></h2>
@@ -36,7 +36,7 @@ get_header();
 </header>
 <div class="<?php echo hestia_layout(); ?>">
 	<div class="blogs">
-		<div class="container">
+		<div class="container" >
 			<div class="row">
 				<div class="<?php echo esc_attr( $class_to_add ); ?>">
 					<?php

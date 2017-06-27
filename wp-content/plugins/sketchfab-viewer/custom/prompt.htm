@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Enter a sketchfab model id</title>
+	<style>
+		form {
+			font-size: 1.1em;
+			line-height: 1.65em;
+		}
+
+		form input {
+			font-size: 1.1em;
+		}
+
+		input[type=submit] {
+			float: right;
+			margin-top: 1em;
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+<div class="mceTmpl">
+	<p>Please write the id of the model you wish to insert (eg. sktechfab.com/show/id)</p>
+	<form method="POST" action="/">
+		<label for="id">Model id</label> : 
+		<input type="text" name="id" value="" size="34" /><br />
+		<label for="start">Autostart</label> :
+		<input type="checkbox" name="start" value="1" /><br />
+		<label for="controls">Show controls</label> : 
+		<input type="checkbox" name="controls" value="1" /><br />
+		<label for="spin">Autospin</label> : 
+		<input type="text" name="spin" size="4"/><br />
+		<input type="submit">
+	</form>
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="tiny_mce_popup.js"></script>
+<script type="text/javascript">
+	$('input[type=submit]').click(function(e) {
+		var id = $('input[name=id]').val();
+		var spin = ($('input[name=spin]').val().match(/^[0-9]*[.]?[0-9]*$/) != null) ? $('input[name=spin]').val() : 0;
+		var start = ($('input[name=start]').attr('checked') == 'checked') ? 1 : 0;
+		var controls = ($('input[name=controls]').attr('checked') == 'checked') ? 1 : 0;
+		if(id) {
+			tinyMCEPopup.execCommand('mceInsertContent', false, 
+				'[sketchfab id="'+id+'" start="'+start+'" spin="'+spin+'" controls="'+controls+'"]');
+			tinyMCEPopup.close();
+		}
+		e.preventDefault();
+	});
+</script>
+</body>

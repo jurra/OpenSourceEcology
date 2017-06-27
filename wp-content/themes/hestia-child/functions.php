@@ -674,3 +674,12 @@ function hestia_ready_for_upsells() {
 	}
 	return true;
 }
+
+
+/*My custom scripts*/
+function my_custom_scripts() {
+	wp_enqueue_script('jquery');
+	wp_enqueue_script('google-maps-api', '//maps.googleapis.com/maps/api/js?sensor=false&extension=.js', array('jquery'));
+	wp_enqueue_script('my-custom-jquery', get_template_directory_uri() . '/js/customjquery.js', array('jquery'));
+}
+add_action('wp_enqueue_scripts', 'my_custom_scripts');

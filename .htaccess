@@ -8,4 +8,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /opensourceecology/index.php [L]
 </IfModule>
+
 # END WordPress

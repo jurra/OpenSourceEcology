@@ -1,4 +1,4 @@
-huge<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
