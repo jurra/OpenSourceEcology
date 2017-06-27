@@ -1521,7 +1521,7 @@ body {
 .wrap {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 700px;
+	max-width: 800px;
 	padding-left: 2em;
 	padding-right: 2em;
 }
@@ -2077,7 +2077,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .archive.page-one-column:not(.has-sidebar) #primary {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 740px;
+	max-width: 840px;
 }
 
 .single-featured-image-header {
@@ -3202,8 +3202,11 @@ object {
 		padding-top: 3.5em;
 	}
 
+/*Changes in wrap container */
 	.page-one-column .panel-content .wrap {
-		max-width: 740px;
+		max-width: 950px;
+		left-padding:0px !important;
+		right-padding:0px !important;
 	}
 
 	.panel-content .entry-header {
