@@ -34,7 +34,7 @@ Get in touch with potential developers and people that one to join our developme
 			<td> Be able to easily download the model and open it on your desktop </td>
 			<td> Download a zipfile from OSE website/ or dropbox/ GitHub/ or Google Drive </td>
 			<td>To do<br>
-			1. Create a file to download the model(similar to part library)
+			Create a file to download the model(similar to part library)
 			</td>
 		</tr>
 
