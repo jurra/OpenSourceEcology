@@ -16,13 +16,12 @@ Get in touch with potential developers and people that one to join our developme
 
 <table>
 
-	<!-- Table head -->
     <tr>
         <th>What(Requirements)</td>
 				<th>How(Specifications)</td>
 				<th>Status</th>
     </tr>
-		<!-- Interactive 3D model -->
+
 		<tr>
 			<td> Interact with the 3D model really fast and start underestanding the printers design.</td>
 			<td> Current Solution: Embedding sketchfab code on the header of the page. Done in header.php code.<br>
@@ -30,7 +29,7 @@ Get in touch with potential developers and people that one to join our developme
 			</td>
 			<td>Done MVP</td>
 		</tr>
-		<!-- Download model  -->
+
 		<tr>
 			<td> Be able to easily download the model and open it on your desktop </td>
 			<td> Download a zipfile from OSE website/ or dropbox/ GitHub/ or Google Drive </td>
@@ -38,13 +37,13 @@ Get in touch with potential developers and people that one to join our developme
 			1. Create a file to download the model(similar to part library)
 			</td>
 		</tr>
-		<!-- Register to events/ exchange reveneu channel -->
+
 		<tr>
 			<td> Signup for an event and pay if needed easily</td>
 			<td> Current solution: Embedding/or Linking to EventBrite. Specifically within the posts loop. </td>
 			<td>Not Done/tested</td>
 		</tr>
-		<!-- Human resources mapping -->
+
 		<tr>
 			<td>As OSE community is nice to map the location of people to organize events close to the area.<br>
 			Implications: Login and data about the location of the person is important</td>
@@ -57,5 +56,4 @@ Get in touch with potential developers and people that one to join our developme
 			<td></td>
 			<td></td>
 		</tr>
-
 </table>
