@@ -18,7 +18,7 @@ Get in touch with potential developers and people that one to join our developme
 
     <tr>
         <th>What(Requirements)</th>
-				<th>How(Specifications)</td>
+				<th>How(Specifications)</th>
 				<th>Status</th>
     </tr>
 
