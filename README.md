@@ -15,7 +15,6 @@ Get in touch with potential developers and people that one to join our developme
 ### User stories/ Features coherent with design assumptions
 
 <table>
-
     <tr>
         <th>What(Requirements)</th>
 				<th>How(Specifications)</th>
@@ -24,7 +23,7 @@ Get in touch with potential developers and people that one to join our developme
 
 		<tr>
 			<td> Interact with the 3D model really fast and start underestanding the printers design.</td>
-			<td> Current Solution: Embedding sketchfab code on the header of the page. Done in header.php code.<br>
+			<td> Current Solution: Embedding sketchfab code on the header of the page. Done in header.php code.
 			Ideal: Do it with "three.js /WebGl" Open Source Resources.
 			</td>
 			<td>Done MVP</td>
@@ -33,7 +32,7 @@ Get in touch with potential developers and people that one to join our developme
 		<tr>
 			<td> Be able to easily download the model and open it on your desktop </td>
 			<td> Download a zipfile from OSE website/ or dropbox/ GitHub/ or Google Drive </td>
-			<td>To do<br>
+			<td>To do
 			Create a file to download the model(similar to part library)
 			</td>
 		</tr>
@@ -45,12 +44,13 @@ Get in touch with potential developers and people that one to join our developme
 		</tr>
 
 		<tr>
-			<td>As OSE community is nice to map the location of people to organize events close to the area.<br>
+			<td>As OSE community is nice to map the location of people to organize events close to the area.
 			Implications: Login and data about the location of the person is important</td>
-			<td> Solution:<br>
-			Ideal Solution:<br></td>
+			<td> Solution:
+			Ideal Solution:</td>
 			<td></td>
 		</tr>
+
 		<tr>
 			<td></td>
 			<td></td>
