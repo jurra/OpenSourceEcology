@@ -12,11 +12,12 @@ Author URI: Your website address.
 
 /* Styles go here */
 
-#div1floor{
-	height:20%;
-
-
+.div1floor{
+	height:50%;
 }
+
+
+
 
 #floordiv{
 	height:120%;
@@ -24,7 +25,7 @@ Author URI: Your website address.
 }
 
 #div5pc{
-	height:5%;
+	height:15%;
 
 }
 
@@ -37,7 +38,7 @@ Author URI: Your website address.
     top: 0;
     overflow: hidden;
     position: fixed;
-		background-color:orange;
+		background-color:grey;
 		background-image:linear-gradient(to top, black 0%, white 100%), url('https://i.ytimg.com/vi/dGp4zrRpEs8/maxresdefault.jpg') !important;
 		background-blend-mode: multiply !important;
 		position:fixed;

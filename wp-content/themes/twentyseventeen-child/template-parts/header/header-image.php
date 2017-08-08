@@ -11,7 +11,7 @@
 ?>
 <div class="custom-header">
 
-	<div class="custom-header-media">
+	<div class="custom-header-media" style="height:600px">
 		<?php the_custom_header_markup(); ?>
 	</div>
 

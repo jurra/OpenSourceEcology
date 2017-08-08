@@ -1,0 +1,28 @@
+Test 2: Create a customJquery to
+
+
+
+How to insert Jquery into a wordpress theme:
+	https://stackoverflow.com/questions/23203905/loading-jquery-javascript-in-functions-php-wordpress
+
+You need to first create
+
+Code:
+function my_custom_scripts() {
+	wp_enqueue_script('jquery');
+	wp_enqueue_script('google-maps-api', '//maps.googleapis.com/maps/api/js?sensor=false&extension=.js', array('jquery'));
+	wp_enqueue_script('my-custom-jquery', get_template_directory_uri() . '/js/customjquery.js', array('jquery'));
+}
+add_action('wp_enqueue_scripts', 'my_custom_scripts');
+
+
+Test 1: Failed
+My added Script:
+
+<script>
+$(document).ready(function(){
+	function changeLogoColor(){
+		$("h1").css("backtround-color","yellow");
+
+
+});</script>
