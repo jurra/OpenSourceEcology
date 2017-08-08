@@ -4,16 +4,16 @@
  * Overwrite Automattic Iris for enabled Alpha Channel in wpColorPicker
  * Only run in input and is defined data alpha in true
  *
- * Version: 1.1
+ * Version: 1.2
  * https://github.com/23r9i0/wp-color-picker-alpha
- * Copyright (c) 2015 Sergio P.A. (23r9i0).
+ * Copyright (c) 2016 Sergio P.A. (23r9i0).
  * Licensed under the GPLv2 license.
  */
 ( function( $ ) {
 	// Variable for some backgrounds
 	var image = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAAHnlligAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHJJREFUeNpi+P///4EDBxiAGMgCCCAGFB5AADGCRBgYDh48CCRZIJS9vT2QBAggFBkmBiSAogxFBiCAoHogAKIKAlBUYTELAiAmEtABEECk20G6BOmuIl0CIMBQ/IEMkO0myiSSraaaBhZcbkUOs0HuBwDplz5uFJ3Z4gAAAABJRU5ErkJggg==';
 	// html stuff for wpColorPicker copy of the original color-picker.js
-	var _before = '<a tabindex="0" class="wp-color-result" />',
+	var	_before = '<a tabindex="0" class="wp-color-result" />',
 		_after = '<div class="wp-picker-holder" />',
 		_wrap = '<div class="wp-picker-container" />',
 		_button = '<input type="button" class="button button-small hidden" />';
@@ -23,15 +23,14 @@
 	 * for enable support rbga
 	 */
 	Color.fn.toString = function() {
-		if ( this._alpha < 1 ) {
+		if ( this._alpha < 1 )
 			return this.toCSS( 'rgba', this._alpha ).replace( /\s+/g, '' );
-		}
+
 		var hex = parseInt( this._color, 10 ).toString( 16 );
 
-		if ( this.error ) {
+		if ( this.error )
 			return '';
-		}
-		
+
 		if ( hex.length < 6 ) {
 			for ( var i = 6 - hex.length - 1; i >= 0; i-- ) {
 				hex = '0' + hex;
@@ -86,11 +85,11 @@
 					if ( self.options.alpha ) {
 						self.toggler.css( { 'background-image': 'url(' + image + ')' } ).html('<span />');
 						self.toggler.find('span').css({
-							'top': '3px',
-							'left': '3px',
-							'bottom': '3px',
-							'right': '3px',
+							'width': '100%',
+							'height': '100%',
 							'position': 'absolute',
+							'top': 0,
+							'left': 0,
 							'border-top-left-radius': '3px',
 							'border-bottom-left-radius': '3px',
 							'background': ui.color.toString()
@@ -199,14 +198,19 @@
 						aSlider: aSlider
 					};
 
+				if ( typeof el.data( 'custom-width' ) !== 'undefined' ) {
+					self.options.customWidth = parseInt( el.data( 'custom-width' ) ) || 0;
+				} else {
+					self.options.customWidth = 100;
+				}
+
 				// Set default width for input reset
 				self.options.defaultWidth = el.width();
 
 				// Update width for input
 				if ( self._color._alpha < 1 || self._color.toString().indexOf('rgb') != 1 ) {
-					//el.width( parseInt( self.options.defaultWidth+100 ) );
+					el.width( parseInt( self.options.defaultWidth + self.options.customWidth ) );
 				}
-				el.width( parseInt( self.options.defaultWidth+100 ) );
 
 				// Push new controls
 				$.each( controls, function( k, v ){
@@ -227,7 +231,7 @@
 				self._initControls();
 
 				// For updated widget
-				// self._change();
+				self._change();
 			}
 		},
 		_initControls: function() {
@@ -257,14 +261,15 @@
 				el = self.element;
 
 			if ( this.options.alpha ) {
-				var controls = self.controls,
+				var	controls = self.controls,
 					alpha = parseInt( self._color._alpha*100 ),
 					color = self._color.toRgb(),
 					gradient = [
 						'rgb(' + color.r + ',' + color.g + ',' + color.b + ') 0%',
 						'rgba(' + color.r + ',' + color.g + ',' + color.b + ', 0) 100%'
 					],
-					//defaultWidth = self.options.defaultWidth,
+					defaultWidth = self.options.defaultWidth,
+					customWidth = self.options.customWidth,
 					target = self.picker.closest('.wp-picker-container').find( '.wp-color-result' );
 
 				// Generate background slider alpha, only for CSS3 old browser fuck!! :)
@@ -283,9 +288,9 @@
 
 						controls.strip.attr( 'style', style );
 
-						//el.width( parseInt( defaultWidth+100 ) );
+						el.width( parseInt( defaultWidth + customWidth ) );
 					} else {
-						//el.width( defaultWidth );
+						el.width( defaultWidth );
 					}
 				}
 			}
@@ -334,3 +339,8 @@
 		}
 	} );
 }( jQuery ) );
+
+// Auto Call plugin is class is color-picker
+jQuery( document ).ready( function( $ ) {
+  $( '.color-picker' ).wpColorPicker();
+} );

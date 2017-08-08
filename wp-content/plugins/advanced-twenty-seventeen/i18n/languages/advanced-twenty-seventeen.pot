@@ -1,0 +1,257 @@
+# Copyright (C) 2017 advanced-twenty-seventeen
+# This file is distributed under the same license as the advanced-twenty-seventeen package.
+msgid ""
+msgstr ""
+"Project-Id-Version: advanced-twenty-seventeen\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8
+\n"
+"Report-Msgid-Bugs-To: http://saturnthemes.com\n"
+"Language-Team: SaturnThemes <saturnplugins@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:46, src/advanced-twenty-seventeen/inc/class-ats-customizer.php:64, src/advanced-twenty-seventeen/inc/class-ats-customizer.php:82, src/advanced-twenty-seventeen/inc/class-ats-customizer.php:112
+msgid "General"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:52
+msgid "Typography"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:58
+msgid "Layout"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:70
+msgid "Site Branding"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:76
+msgid "Menu"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:88
+msgid "Widget"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:94
+msgid "Custom Copyright"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:100
+msgid "Social Icons"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:106
+msgid "Custom Code"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:123
+msgid "Full Width"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:124
+msgid "Boxed"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:137, src/advanced-twenty-seventeen/inc/class-ats-customizer.php:342
+msgid "To use this option properly please go to Customizer > Header Media > click on Hide Image of Header Image."
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:424, src/advanced-twenty-seventeen/inc/class-ats-customizer.php:484
+msgid "Left"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:425, src/advanced-twenty-seventeen/inc/class-ats-customizer.php:485
+msgid "Center"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:426, src/advanced-twenty-seventeen/inc/class-ats-customizer.php:486
+msgid "Right"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:428
+msgid "Horizontal align for site branding"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:488
+msgid "Horizontal align for menu"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:589, src/advanced-twenty-seventeen/inc/class-ats-customizer.php:606
+msgid "For example: 1px solid #eee or none"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:745
+msgid "Advanced Widgets"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:749
+msgid "Allow to add more widget section in the footer"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:754
+msgid "Sections"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:759
+msgid "Widget Section"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:776
+msgid "Section Width"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:792
+msgid "Widget Title"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:815
+msgid "Widget Text"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:838
+msgid "Widget Link"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:863, src/advanced-twenty-seventeen/inc/admin/child-theme/template-parts/footer/site-info.php:13
+msgid "Proudly powered by WordPress"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:952
+msgid "Copyright Text"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:974
+msgid "Color"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:990
+msgid "Icon Color"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1006
+msgid "Color on Hover"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1022
+msgid "Icon Color on Hover"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1041
+msgid "<!-- Your Custom HTML Code -->"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1054
+msgid "Hide Panel Title"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1058
+msgid "Hide title panel or not"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1087
+msgid "Repeat"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1088
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1089
+msgid "Repeat Vertical"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1090
+msgid "No Repeat"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1096
+msgid "Left Top"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1097
+msgid "Left Center"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1098
+msgid "Left Bottom"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1099
+msgid "Right Top"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1100
+msgid "Right Center"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1101
+msgid "Right Bottom"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1102
+msgid "Center Top"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1103
+msgid "Center Center"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1104
+msgid "Center Bottom"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1110
+msgid "Scroll"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1111
+msgid "Fixed"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1112, src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1122
+msgid "Inherit"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1118
+msgid "None"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1119
+msgid "Capitalize"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1120
+msgid "Uppercase"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1121
+msgid "Lowercase"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1134
+msgid "Footer %d"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/class-ats-customizer.php:1136
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/admin/class-ats-admin-child-theme.php:48, src/advanced-twenty-seventeen/inc/admin/class-ats-admin-child-theme.php:62
+msgid "Advanced Twenty Seventeen plugin"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/admin/class-ats-admin-child-theme.php:50
+msgid "Please activate the theme Twenty Seventeen."
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/admin/class-ats-admin-child-theme.php:53
+msgid "Please click <a href=\"%s\">here</a> to create advanced child theme for Twenty Seventeen"
+msgstr ""
+
+#: src/advanced-twenty-seventeen/inc/admin/class-ats-admin-child-theme.php:63
+msgid "The child theme is created successfully. Please go to <a href=\"%s\">customize</a> to use Advanced Twenty Seventeen"
+msgstr ""
