@@ -17,7 +17,7 @@ Get in touch with potential developers and people that one to join our developme
 <table>
 
     <tr>
-        <th>What(Requirements)</td>
+        <th>What(Requirements)</th>
 				<th>How(Specifications)</td>
 				<th>Status</th>
     </tr>
@@ -25,7 +25,7 @@ Get in touch with potential developers and people that one to join our developme
 		<tr>
 			<td> Interact with the 3D model really fast and start underestanding the printers design.</td>
 			<td> Current Solution: Embedding sketchfab code on the header of the page. Done in header.php code.<br>
-			Ideal: Do it with three.js/WebGl Open Source Resources.
+			Ideal: Do it with "three.js /WebGl" Open Source Resources.
 			</td>
 			<td>Done MVP</td>
 		</tr>
